@@ -14,7 +14,7 @@ items:
       spec:
         containers:
         - name: customers
-          image: vatsakatta/customers:latest
+          image: jagannathbalachandran/customers:latest
           ports:
           - containerPort: 8080
           volumeMounts:
@@ -43,7 +43,7 @@ items:
       spec:
         containers:
         - name: orders
-          image: vatsakatta/orders:latest
+          image: jagannathbalachandran/orders:latest
           ports:
           - containerPort: 8080
           volumeMounts:
