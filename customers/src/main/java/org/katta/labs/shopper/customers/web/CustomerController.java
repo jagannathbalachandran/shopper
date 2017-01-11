@@ -17,7 +17,7 @@ public class CustomerController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String index() {
-        return "Customers resource";
+        return "Customers resources";
     }
 
     @RequestMapping(method = RequestMethod.POST)
