@@ -35,7 +35,7 @@ public class CustomerControllerTest {
     public void shouldGetCustomer() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/customers").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Customers resource"));
+                .andExpect(content().string("Customers resources"));
     }
 
     @Test
